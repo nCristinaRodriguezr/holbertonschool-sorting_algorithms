@@ -1,5 +1,26 @@
 #include <stddef.h>
+#include <stdio.h>
+/**
+ * print_array - This function takes an array array and its size size.
+ * Then, it loops through the array and prints each element,
+ * separated by commas and spaces. At the end, print a new line.
+ * @array: Pointer to list
+ * @size: the size
+ */
+void print_array(const int *array, size_t size)
+{
+	size_t i;
 
+	for (i = 0; i < size; i++)
+	{
+	if (i > 0)
+	{
+		printf(", ");
+	}
+	printf("%d", array[i]);
+	}
+	printf("\n");
+}
 /**
  * swap - Swaps the values of two integers.
  * @a: Pointer to the first integer.
