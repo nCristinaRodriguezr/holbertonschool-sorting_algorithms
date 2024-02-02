@@ -1,6 +1,5 @@
 #include <stddef.h>
 #include <stdio.h>
-#include "sort.h"
 /**
  * swap - Swaps the values of two integers.
  * @a: Pointer to the first integer.
