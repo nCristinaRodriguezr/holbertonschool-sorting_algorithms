@@ -1,5 +1,6 @@
 #include <stddef.h>
 #include <stdio.h>
+#include "sort.h"
 /**
  * print_array - This function takes an array array and its size size.
  * Then, it loops through the array and prints each element,
