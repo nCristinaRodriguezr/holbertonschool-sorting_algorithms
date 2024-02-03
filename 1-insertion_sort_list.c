@@ -8,9 +8,9 @@
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *current;
-        listint_t *temp;
+	listint_t *temp;
 	listint_t *temp2;
-        listint_t *prev;
+	listint_t *prev;
 
 	if (list == NULL || *list == NULL || (*list)->next == NULL)
 		return;
