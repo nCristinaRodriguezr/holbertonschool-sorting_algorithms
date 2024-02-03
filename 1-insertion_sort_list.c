@@ -34,7 +34,7 @@ void insertion_sort_list(listint_t **list)
 			current->prev = prev->prev;
 			prev->prev = current;
 			current->next = prev;
-			prev->next = temp;
+			prev->next = temp2;
 			if (temp2 != NULL)
 				temp2->prev = prev;
 			print_list(*list);
